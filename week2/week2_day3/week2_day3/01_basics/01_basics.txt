@@ -1,0 +1,14 @@
+* Name a yellow food that this regular expression will match ```"[abn]+"```
+banana
+
+* Write a sentence that this regular expression will match ```"^Once.*end\.$"```
+Once upon a time until the end.
+
+* Write a similar sentence that the expression won't match.
+Once upon a time until the end
+
+* If a name record has to have a first name and a last name, separated by
+and each beginning with a capital letter, write an expression that matches
+this and excludes non-matching records.
+
+^[A-Z]* [A-Z]

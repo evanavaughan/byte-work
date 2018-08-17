@@ -13,10 +13,10 @@ class Point():
 
     def distance(self):
         '''calculating distance between (x1, y1) and (x2, y2)'''
-        sq1 = math.sqrt((self.x1 - self.x2) ** 2 + (self.y1 - self.y2) ** 2)
+        sq1 = float(math.sqrt((self.x1 - self.x2) ** 2 + (self.y1 - self.y2) ** 2))
         print(sq1)
 
-p = Point(1,4,5,8)
+p = Point(1,2,3,4)
 '''inputing values for point variables'''
 p.distance()
 
