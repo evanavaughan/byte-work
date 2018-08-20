@@ -1,3 +1,4 @@
+
 def mealCost:
     return float(mealCost)
 def tipPercent:
@@ -8,3 +9,4 @@ def taxPercent:
 def totalCost:
     return (mealCost + (mealCost*tipPercent/100) + (mealCost*taxPercent/100))
 print(int(totalCost))
+
