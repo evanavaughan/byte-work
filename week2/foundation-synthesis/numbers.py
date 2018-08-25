@@ -14,6 +14,6 @@ def removespaces(equation):
     stringlen = round(len(nospaces)/2)
     print(nospaces)
     print(stringlen)
-
+# 
 
 removespaces("3 4 - 5 +")
